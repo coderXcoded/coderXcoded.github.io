@@ -7,7 +7,9 @@
 <body>
    <h1>Hello World!</h1>
    <p>Let us Create a Form for You<p>
-   <form action="brightlonda.scholar@gamil.com">
+   
+   <form method="post" action="send-email.php"><!-- a send-email.php file is required to send the email -->
+      
       <h4 id="username">Username</h4>
       <input type="text" id="user" placeholder="First and Last name" required>
       
@@ -16,18 +18,22 @@
       
       <h4>Phone Number</h4>
       <input type="tel" id="tel" placeholder="Your Phone Number" required>
-      
+      <br/>
+      <p id="member_">Are you a member of of FrerCodeCamp.org?<p>
       <label for="Yes">
-         <input id="Yes" type="radio" name="member">Are you a member of freecodecamp.org</input>
+         <input id="Yes" type="radio" name="member" value="Yes" required>Yes
       </label>
-      <label for=""No>
-         <input id="No" type="radio" name="member">
+      <label for="No">
+         <input id="No" type="radio" name="member" value="No" required>No
       </label>
-         
+      <br/>   
+      
       <button type="submit">
          <h4 id="submit">Submit</h4>
       </botton>
+      
    </form>
+   
 </body>
 
 </html>

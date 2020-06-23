@@ -1,0 +1,105 @@
+.card_width {
+	width:300px;
+	height:270px;
+	padding: 15px;
+	position:relative;
+	margin: 20px;
+	border-radius:10px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:15px;
+	box-shadow: 0px 10px 20px rgba( 0,0,0,0.29);
+	text-align:justify;
+	z-index:1;
+}
+.circle {
+	border-radius:50%;
+	border: 1px, solid;
+	margin-left:80px;
+	width: 200px; 
+}
+
+#italics {
+	text-align: center;
+}
+
+nav {
+	width:97%;
+	position: fixed;
+	z-index:2;
+	padding-bottom:15px;
+	padding-right: 30px;
+	border-radius:3px;
+}
+
+nav li {
+	display:inline;
+	text-align:center;
+	position:relative;
+	float:right;
+	margin-left:10px;
+}
+
+.navclr {
+	background: linear-gradient(45deg, #038eff, black);
+}	
+
+nav li a {
+	color:white;
+	font-size:20px;
+	font-family: 'Nova Square', cursive;
+}
+
+a:hover{
+	color:#138dff;
+}
+
+h2 {
+	text-align:center;
+}
+
+#table1 {
+	margin:auto;
+}
+
+#table2 {
+	margin:auto;
+}
+
+#container {
+	
+}
+
+.noto {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#container #cards p {
+	color:black;
+}
+
+#container h3 {
+	color:black;
+}
+
+footer {
+	width:97%;
+	padding-bottom:15px;
+	padding-right: 30px;
+	border-radius:3px;
+	padding-bottom:60px;
+	padding-top:10px;
+}
+#italics {
+	color:white;
+	float:left;
+	margin-left:5px;
+	width:400px;
+}
+
+footer a {
+	color:white;
+	float:right;
+	margin-right:30px;
+	margin-bottom:10px;
+	padding:20px;
+}
